@@ -10,10 +10,10 @@ print("--- Movie Recommender Model Creation ---")
 
 # --- 1. Load All Datasets ---
 print("Step 1: Loading all required datasets...")
-md = pd.read_csv('../input/movies_metadata.csv', low_memory=False)
-credits = pd.read_csv('../input/credits.csv')
-keywords = pd.read_csv('../input/keywords.csv')
-links_small = pd.read_csv('../input/links_small.csv')
+md = pd.read_csv('/kaggle/input/the-movies-dataset/movies_metadata.csv', low_memory=False)
+credits = pd.read_csv('/kaggle/input/the-movies-dataset/credits.csv')
+keywords = pd.read_csv('/kaggle/input/the-movies-dataset/keywords.csv')
+links_small = pd.read_csv('/kaggle/input/the-movies-dataset/links_small.csv')
 
 # --- 2. Initial Cleaning and Filtering to Small Dataset ---
 print("Step 2: Cleaning and filtering data to the small dataset...")
