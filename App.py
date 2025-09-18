@@ -18,8 +18,7 @@ links_small = pd.read_csv('../input/links_small.csv')
 # --- 2. Initial Cleaning and Filtering to Small Dataset ---
 print("Step 2: Cleaning and filtering data to the small dataset...")
 # Safely drop known bad rows …
-Pragyan AI and DS School
-2:13 PM
+
 import streamlit as st
 import pandas as pd
 import joblib
